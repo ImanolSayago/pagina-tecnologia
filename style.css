@@ -121,6 +121,11 @@ margin: 30px;
     font-size: 35px;
 }
 
+.about p
+{
+    text-align: justify;
+}
+
 .cartas-about
 {
     display: flex;
@@ -356,3 +361,23 @@ color: rgb(255, 255, 255);
 }
 
 
+@media(min-width:720px)
+{
+    nav 
+    {
+        display: flex;
+        justify-content: space-between;
+        max-width: 100vw;
+
+    }
+    nav ul li a 
+    {
+        font-size: 22px;
+        
+    }
+
+    nav ul
+    {
+        margin-right: 20px;
+    }
+}
