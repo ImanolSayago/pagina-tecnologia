@@ -234,7 +234,7 @@ margin: 30px;
     justify-content: center;
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
 }
 
 .texto-portfolio h2{
@@ -248,10 +248,11 @@ margin: 30px;
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    border: 1px solid black;
+    
     margin-top: 20px;
     overflow: hidden;
     text-align: center;
+    height: 300px;
 }
 
 .contenido-portfolio h3{
@@ -260,7 +261,98 @@ margin: 30px;
 
 .txt-portfolio{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 
+.boton-portfolio
+{
+    background-color: rgb(102, 38, 161);
+    padding: 5px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+}
+
+.boton-portfolio:hover
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(102, 38, 161);
+    border: 1px solid rgb(102, 38, 161);
+}
+
+.txt-portfolio h3
+{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.footer
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(102, 38, 161);
+    
+}
+
+.footer-section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.footer-section h2
+{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.footer-section p
+{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.links
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.links ul
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.links h3
+{
+    font-size: 30px;
+color: rgb(255, 255, 255);
+}
+
+.links ul li 
+{
+    margin-top: 4px;
+}
+.links ul li a
+{
+    color: rgb(255, 255, 255);
+}
+
+.links ul li a:hover
+{
+    text-decoration: underline;
+}
 
 
