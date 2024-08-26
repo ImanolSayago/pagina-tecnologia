@@ -375,9 +375,115 @@ color: rgb(255, 255, 255);
         font-size: 22px;
         
     }
-
+    
     nav ul
     {
         margin-right: 20px;
     }
+
+    nav ul li 
+    {
+        margin: 0px 15px;
+    }
+
+    .texto-header
+    {
+        margin-top: 100px;
+    }
+    .texto-header h1 
+    {
+        font-size: 80px;
+    }
+
+    .texto-header p 
+    {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .boton-banner
+    {
+        padding: 25px;
+        font-size: 25px;
+        
+    }
+
+    .img-header
+    {
+        width: 500px;
+        
+    }
+    .about
+    {
+        margin-top: 150px;
+    }
+
+    .about p 
+    {
+        font-size: 20px;
+    }
+    #nosotros 
+    {
+        font-size: 50px;
+    }
+
+    .cont-cartas
+    {
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    .cartas-about
+    {
+       margin: 25px;
+       border: 2px solid rgb(102, 38, 161);
+       border-radius: 5px;
+       box-shadow: 1px 0px 15px rgb(102, 38, 161);
+       margin-bottom: 50px;
+    }
+
+    .boton-about
+    {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .boton-about:hover{
+        padding: 14px;
+        font-size: 20px;
+    }
+
+    .servicios-container
+    {
+        display: flex;
+        margin-top: 150px;
+       
+
+    }
+    .servicios-cartas
+    {
+        display: flex;
+        flex-direction: row;
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        border: none;
+    }
+    .carta
+    {
+        height: 80%;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    }
+
+    .servicios-txt{
+        box-shadow: none;
+        border: none;
+        width: 60%;
+    }
+
+    .servicios-txt h2
+    {
+        font-size: 50px;
+    }
 }
+
