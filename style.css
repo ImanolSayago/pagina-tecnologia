@@ -283,6 +283,7 @@ margin: 30px;
 
 .boton-portfolio:hover
 {
+    padding: 4px;
     background-color: rgb(255, 255, 255);
     color: rgb(102, 38, 161);
     border: 1px solid rgb(102, 38, 161);
