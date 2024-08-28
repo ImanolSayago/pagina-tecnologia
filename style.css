@@ -418,6 +418,11 @@ color: rgb(255, 255, 255);
         margin-top: 150px;
     }
 
+    .about h2
+    {
+        font-size: 60px;
+    }
+
     .about p 
     {
         font-size: 20px;
@@ -488,7 +493,7 @@ color: rgb(255, 255, 255);
 
     .servicios-txt h2
     {
-        font-size: 50px;
+        font-size: 60px;
     }
 
     .carta h3
