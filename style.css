@@ -496,6 +496,11 @@ color: rgb(255, 255, 255);
         font-size: 60px;
     }
 
+    .servicios p
+    {
+        font-size: 22px;
+    }
+
     .carta h3
     {
         font-size: 30px;
@@ -569,7 +574,7 @@ color: rgb(255, 255, 255);
 
    .texto-portfolio p 
    {
-    font-size: 30px;
+    font-size: 22px;
    }
 }
 
